@@ -34,7 +34,7 @@ Master's student in Data Analytics and Visualisation with 6+ years of experience
 
   <!-- 数据产品与可视化 -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40"/>
-  <img src="https://cdn.simpleicons.org/tableau/E97627" alt="tableau" width="40" height="40"/>
+  <img src="https://cdn.simpleicons.org/tableau/E97627.svg" alt="tableau" width="40" height="40"/>
   <img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="streamlit" width="40" height="40"/>
 
   <!-- 设计工具 -->

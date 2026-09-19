@@ -1,6 +1,6 @@
 ### Data Analytics, Visualisation & Strategy 🚀
 
-# Data Analyst & UI/UX Designer
+# Data Analyst & UI Designer
 
 **Building data-driven solutions and intuitive visual dashboards to bridge the gap between complex data and user experience.**
 

@@ -5,7 +5,7 @@
 **Building data-driven solutions and intuitive visual dashboards to bridge the gap between complex data and user experience.**
 
 ### Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](#) [![Email](https://img.shields.io/badge/Email-sgcym0407%40163.com-blue)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](#) [![Email](https://img.shields.io/badge/Email-yumeng055%40gmail.com-blue)](#)
 
 ---
 

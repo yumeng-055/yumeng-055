@@ -1,53 +1,91 @@
-### Data Analytics, Visualisation & Strategy 🚀
+# Hi, I'm Yumeng Cai
 
-# Data Analyst & UI Designer
+**MSc student in Data Analytics and Visualisation | Seeking Data Analyst Internship Opportunities in Singapore**
 
-**Building data-driven solutions and intuitive visual dashboards to bridge the gap between complex data and user experience.**
+I am pursuing a **Master of Science in Data Analytics and Visualisation at Singapore University of Social Sciences**, with a current GPA of **4.75/5.0**.
 
-### Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](#) [![Email](https://img.shields.io/badge/Email-yumeng055%40gmail.com-blue)](#)
+My background spans product design, visual merchandising and UI design. I have used customer information and product sales data to inform product development and retail display decisions. I now build on that experience through Python analytics projects in customer segmentation, programme evaluation and price estimation.
 
----
+[Email](mailto:yumeng055@gmail.com) · [Explore my repositories](https://github.com/yumeng-055?tab=repositories)
 
-Master's student in Data Analytics and Visualisation with 6+ years of experience in product styling, UI design, and visual merchandising[cite: 1, 2]. I leverage my strong foundation in user-centric design and market analysis to translate raw data into actionable business insights and robust, interactive applications.
+## Featured Analytics Projects
 
-• **Analytics & Modeling:** Experience in building predictive pipelines, applying machine learning algorithms (Random Forest, XGBoost), and statistical modeling (ARIMA, SES) in Python environments.
+All four projects were completed independently as academic coursework. The repositories present analytical workflows, findings and business interpretations; proposed pilots and recommendations are distinguished from implemented outcomes.
 
-• **Design to Data:** Got good exposure to UI/UX design using Figma, Adobe Photoshop, and Rhino[cite: 1, 2]. Adept at combining aesthetic principles with data visualization to create highly readable and interactive dashboards (e.g., Streamlit).
+### [Retail Customer Segmentation and Marketing Strategy](https://github.com/yumeng-055/retail-customer-segmentation)
 
-• **Cross-functional Collaboration:** Proven track record of managing end-to-end product lifecycles, optimizing workflows, and driving decision-making through competitor and consumer behavior data[cite: 1].
+**Question:** How can customer purchasing and channel patterns inform differentiated marketing?
 
-### Skills
-<p align="left">
-  <!-- 编程语言与开发环境 -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40" height="40"/>
+- Analysed **2,000 customers**, prepared eight clustering features and retained five principal components explaining **81.57% of variance**
+- Compared K-Means and hierarchical clustering, selecting four segments for business interpretability while acknowledging stronger internal metrics at K=3
+- Identified a fashion-and-technology segment representing **37.2% of customers**, with median monthly visits of **13 online and two in-store**
+- Proposed segment-specific offers and a randomised pilot with defined conversion metrics
 
-  <!-- 数据分析与机器学习 -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="scikitlearn" width="40" height="40"/>
+**Tools:** Python, Pandas, Scikit-learn, PCA, K-Means, Matplotlib, Seaborn
 
-  <!-- 数据库 -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg" alt="postgresql" width="40" height="40"/>
+### [Employee Training Effectiveness and Causal Analysis](https://github.com/yumeng-055/Employee-Training-Causal-Analysis)
 
-  <!-- 数据产品与可视化 -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" alt="matplotlib" width="40" height="40"/>
-  <!-- img src="https://cdn.simpleicons.org/tableau/E97627.svg" alt="tableau" width="40" height="40"/ -->
-  <img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="streamlit" width="40" height="40"/>
+**Question:** What evidence would support expanding a retail employee-training programme?
 
-  <!-- 设计工具 -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" alt="photoshop" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" alt="illustrator" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" alt="blender" width="40" height="40"/>
-</p>
+- Analysed **1,200 monthly observations across 50 stores**, comparing 25 trained and 25 control stores over 24 months
+- Compared pooled OLS, fixed-effects and random-effects models, then estimated a two-way fixed-effects difference-in-differences model with store-clustered standard errors
+- Estimated **+5.19 monthly sales units** under the required causal assumptions (**95% CI: 4.44–5.94**); the dataset does not establish a currency or monetary scale
+- Recommended a controlled pilot and collection of training costs and margins before a broader rollout decision
 
-### Highlights
+**Tools:** Python, Pandas, Statsmodels, linearmodels, Difference-in-Differences
 
-⚡ **Real Estate Analytics App:** Developed a Singapore HDB market segmentation and price prediction application using Ridge Regression, Random Forest, and XGBoost. Designed an interactive Streamlit UI for real-time parameter adjustments.
+### [Singapore HDB Resale Price Analytics](https://github.com/yumeng-055/hdb-resale-price-analytics)
 
-📈 **Time Series Forecasting:** Modeled local climate trends and international football match outcomes (1872-2025) using Simple Exponential Smoothing (SES), DES, and ARIMA to evaluate winning probabilities and future trends.
+**Question:** How accurately can property characteristics estimate HDB resale prices?
 
-🎯 **Business Strategy & Visualisation:** Worked with consumer behavior and traffic metrics to optimize interface designs and in-store visual merchandising[cite: 1]. Delivered high-fidelity prototypes and data-driven strategy reports[cite: 1].
+- Prepared **25,073 transactions registered in 2025** and built reusable preprocessing and modelling Pipelines
+- Compared Ridge, Random Forest and XGBoost using five-fold training cross-validation, fitting encoding and scaling within each training fold
+- The selected XGBoost achieved a held-out **R² of 0.9596** and **MAE of SGD 28,600**
+- Built a **Streamlit estimation prototype** and analysed errors by town to identify segments needing further review
+
+**Tools:** Python, Pandas, Scikit-learn, XGBoost, Streamlit
+
+### [Singapore Temperature Forecasting](https://github.com/yumeng-055/Singapore-Temperature-Forecasting)
+
+**Question:** Does rainfall improve annual temperature forecasts enough to justify a more complex model?
+
+- Analysed **65 annual observations from 1960–2024**, using a ten-year chronological holdout
+- Compared SES, ARIMA and rainfall-assisted ARIMAX; SES achieved **RMSE of 0.4735°C**, nearly identical to ARIMA
+- Found that ARIMAX did not improve this holdout comparison, even with observed holdout rainfall supplied
+- Documented forecast limitations and proposed rolling-origin evaluation before operational use
+
+**Tools:** Python, Pandas, Statsmodels, Matplotlib
+
+## From Retail and Design to Analytics
+
+My professional experience provides context for the questions I explore in these projects:
+
+- **Customer and sales analysis:** Reviewed customer profiles and previous-quarter product sales to inform category selection and design direction for sports merchandise
+- **Product delivery:** Independently designed a collection spanning **six product categories**, coordinating supplier discussions, prototyping and sample approval through production
+- **Retail execution:** Designed display schemes, produced merchandising guidelines and managed display-prop distribution for **up to approximately 100 stores**
+- **Communication and collaboration:** Worked with operations teams, product managers, suppliers and front-end developers to turn requirements into practical deliverables
+
+## Skills
+
+| Area | Tools and methods |
+| --- | --- |
+| Python analytics | Pandas, NumPy, Scikit-learn, Statsmodels |
+| Statistical analysis | Hypothesis testing, regression, panel data, fixed effects, difference-in-differences |
+| Machine learning and forecasting | PCA, K-Means, hierarchical clustering, Ridge, Random Forest, XGBoost, SES, ARIMA, ARIMAX |
+| Visualisation and applications | Matplotlib, Seaborn, Streamlit |
+| Coursework practice | SQL queries, joins, aggregations and window functions; Excel; Tableau |
+| Development tools | Git/GitHub, Jupyter, DBeaver |
+| Design background | Figma, Adobe Illustrator, Photoshop, Rhino, KeyShot |
+
+## Education and Interests
+
+**Singapore University of Social Sciences**  
+Master of Science in Data Analytics and Visualisation · Jan 2026 – Jun 2027  
+Current GPA: 4.75/5.0
+
+**Zhongshan Institute, University of Electronic Science and Technology of China**  
+Bachelor of Engineering in Industrial Design · Sep 2013 – Jun 2017
+
+I am interested in **customer analytics, marketing analytics and retail business intelligence**, with a focus on connecting analytical evidence to business decisions.
+
+**For internship enquiries:** [yumeng055@gmail.com](mailto:yumeng055@gmail.com)

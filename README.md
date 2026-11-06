@@ -71,18 +71,15 @@ My professional experience provides context for the questions I explore in these
 
 | Area | Tools and methods |
 | --- | --- |
-| Python analytics | Pandas, NumPy, Scikit-learn, Statsmodels, linearmodels |
-| Data preparation | Schema and identity checks, missing-value treatment, categorical encoding, scaling, feature engineering, fold-local Pipelines |
-| Statistical analysis | Hypothesis testing, confidence intervals, OLS, panel data, fixed and random effects, difference-in-differences, cluster-robust standard errors |
-| Machine learning | Logistic regression, Ridge, Random Forest, XGBoost, PCA, K-Means, hierarchical clustering |
-| Time series forecasting | SES, ARIMA, ARIMAX, chronological holdout evaluation, residual diagnostics and prediction intervals |
-| Model evaluation | Cross-validation, hyperparameter search, OOF threshold selection, permutation importance, group-level error analysis |
-| Model monitoring | Batch data-quality checks, PSI, precision/recall and F1 tracking, retrospective challenger evaluation, retraining and rollback planning |
-| Business and customer analytics | Customer profiling, marketing recommendations, KPI definitions, experiment planning and decision briefs |
-| Visualisation and applications | Matplotlib, Seaborn, Streamlit estimation prototypes |
-| SQL and BI tools | SQL queries, joins, aggregations and window functions; Excel; Tableau; DBeaver |
-| Reproducible development | Modular Python, command-line reporting, Jupyter, unittest, Git/GitHub |
-| Design background | Figma, Adobe Illustrator, Photoshop, Rhino, KeyShot |
+| Python and SQL | Pandas, NumPy, scikit-learn, Statsmodels; SQL joins, aggregations and window functions |
+| Data preparation | Data validation, missing-value treatment, encoding, feature engineering and preprocessing pipelines |
+| Statistical and customer analytics | Hypothesis testing, difference-in-differences, customer segmentation, KPI definition and experiment planning |
+| Machine learning | Regression, classification and clustering; cross-validation, tuning and error analysis |
+| Model monitoring | Batch quality checks, PSI, performance tracking and retraining planning |
+| Visualisation and communication | Tableau, Matplotlib, Seaborn, Streamlit; PowerPoint |
+| Excel | Pivot Tables, VLOOKUP |
+| Development tools | Git/GitHub, Jupyter, DBeaver, unittest |
+| Design tools | Figma, Adobe Illustrator, Photoshop, Rhino, KeyShot |
 
 ## Education and Interests
 

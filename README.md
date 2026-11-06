@@ -2,6 +2,8 @@
 
 **MSc student in Data Analytics and Visualisation | Seeking Data Analyst Internship Opportunities in Singapore**
 
+**Internship availability:** January–June 2027 · Full-time · Six-month, credit-bearing internship
+
 I am pursuing a **Master of Science in Data Analytics and Visualisation at Singapore University of Social Sciences**, with a current GPA of **4.75/5.0**.
 
 My background spans product design, visual merchandising and UI design. I have used customer information and product sales data to inform product development and retail display decisions. I now build on that experience through Python analytics projects in customer segmentation, programme evaluation, price estimation and model monitoring.
@@ -10,7 +12,7 @@ My background spans product design, visual merchandising and UI design. I have u
 
 ## Featured Analytics Projects
 
-All five projects were completed independently as academic coursework. The repositories present analytical workflows, findings and business interpretations; proposed pilots and recommendations are distinguished from implemented outcomes.
+All four projects were completed independently as academic coursework. The repositories present analytical workflows, findings and business interpretations; proposed pilots and recommendations are distinguished from implemented outcomes.
 
 ### [Retail Customer Segmentation and Marketing Strategy](https://github.com/yumeng-055/retail-customer-segmentation)
 
@@ -55,17 +57,6 @@ All five projects were completed independently as academic coursework. The repos
 - Built reproducible local monitoring reports and evaluated a retrospective challenger, with future-batch validation required before any proposed model replacement
 
 **Tools:** Python, Pandas, Scikit-learn, Random Forest, PSI, Matplotlib, Seaborn
-
-### [Singapore Temperature Forecasting](https://github.com/yumeng-055/Singapore-Temperature-Forecasting)
-
-**Question:** Does rainfall improve annual temperature forecasts enough to justify a more complex model?
-
-- Analysed **65 annual observations from 1960–2024**, using a ten-year chronological holdout
-- Compared SES, ARIMA and rainfall-assisted ARIMAX; SES achieved **RMSE of 0.4735°C**, nearly identical to ARIMA
-- Found that ARIMAX did not improve this holdout comparison, even with observed holdout rainfall supplied
-- Documented forecast limitations and proposed rolling-origin evaluation before operational use
-
-**Tools:** Python, Pandas, Statsmodels, Matplotlib
 
 ## From Retail and Design to Analytics
 

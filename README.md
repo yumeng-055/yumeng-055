@@ -4,13 +4,13 @@
 
 I am pursuing a **Master of Science in Data Analytics and Visualisation at Singapore University of Social Sciences**, with a current GPA of **4.75/5.0**.
 
-My background spans product design, visual merchandising and UI design. I have used customer information and product sales data to inform product development and retail display decisions. I now build on that experience through Python analytics projects in customer segmentation, programme evaluation and price estimation.
+My background spans product design, visual merchandising and UI design. I have used customer information and product sales data to inform product development and retail display decisions. I now build on that experience through Python analytics projects in customer segmentation, programme evaluation, price estimation and model monitoring.
 
-[Email](mailto:yumeng055@gmail.com) · [Explore my repositories](https://github.com/yumeng-055?tab=repositories)
+[Email](mailto:yumeng055@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yumeng-cai-12a7363a4) · [Explore my repositories](https://github.com/yumeng-055?tab=repositories)
 
 ## Featured Analytics Projects
 
-All four projects were completed independently as academic coursework. The repositories present analytical workflows, findings and business interpretations; proposed pilots and recommendations are distinguished from implemented outcomes.
+All five projects were completed independently as academic coursework. The repositories present analytical workflows, findings and business interpretations; proposed pilots and recommendations are distinguished from implemented outcomes.
 
 ### [Retail Customer Segmentation and Marketing Strategy](https://github.com/yumeng-055/retail-customer-segmentation)
 
@@ -45,6 +45,17 @@ All four projects were completed independently as academic coursework. The repos
 
 **Tools:** Python, Pandas, Scikit-learn, XGBoost, Streamlit
 
+### [Airline Customer Experience & Model Performance Monitoring](https://github.com/yumeng-055/airline-customer-experience-monitoring)
+
+**Question:** When does a satisfaction model become less reliable, and what evidence should guide investigation and retraining?
+
+- Prepared **20,000 historical survey rows and three monthly batches of 3,000 rows**, with fold-local preprocessing and a frozen classification model
+- Tracked monthly **F1 declining from 0.9475 to 0.9028**, separating data-quality warnings, input drift and performance alerts
+- Diagnosed **Business-class recall falling from 91.5% to 79.1%**, using passenger-group errors and PSI to prioritise investigation
+- Built reproducible local monitoring reports and evaluated a retrospective challenger, with future-batch validation required before any proposed model replacement
+
+**Tools:** Python, Pandas, Scikit-learn, Random Forest, PSI, Matplotlib, Seaborn
+
 ### [Singapore Temperature Forecasting](https://github.com/yumeng-055/Singapore-Temperature-Forecasting)
 
 **Question:** Does rainfall improve annual temperature forecasts enough to justify a more complex model?
@@ -69,12 +80,17 @@ My professional experience provides context for the questions I explore in these
 
 | Area | Tools and methods |
 | --- | --- |
-| Python analytics | Pandas, NumPy, Scikit-learn, Statsmodels |
-| Statistical analysis | Hypothesis testing, regression, panel data, fixed effects, difference-in-differences |
-| Machine learning and forecasting | PCA, K-Means, hierarchical clustering, Ridge, Random Forest, XGBoost, SES, ARIMA, ARIMAX |
-| Visualisation and applications | Matplotlib, Seaborn, Streamlit |
-| Coursework practice | SQL queries, joins, aggregations and window functions; Excel; Tableau |
-| Development tools | Git/GitHub, Jupyter, DBeaver |
+| Python analytics | Pandas, NumPy, Scikit-learn, Statsmodels, linearmodels |
+| Data preparation | Schema and identity checks, missing-value treatment, categorical encoding, scaling, feature engineering, fold-local Pipelines |
+| Statistical analysis | Hypothesis testing, confidence intervals, OLS, panel data, fixed and random effects, difference-in-differences, cluster-robust standard errors |
+| Machine learning | Logistic regression, Ridge, Random Forest, XGBoost, PCA, K-Means, hierarchical clustering |
+| Time series forecasting | SES, ARIMA, ARIMAX, chronological holdout evaluation, residual diagnostics and prediction intervals |
+| Model evaluation | Cross-validation, hyperparameter search, OOF threshold selection, permutation importance, group-level error analysis |
+| Model monitoring | Batch data-quality checks, PSI, precision/recall and F1 tracking, retrospective challenger evaluation, retraining and rollback planning |
+| Business and customer analytics | Customer profiling, marketing recommendations, KPI definitions, experiment planning and decision briefs |
+| Visualisation and applications | Matplotlib, Seaborn, Streamlit estimation prototypes |
+| SQL and BI tools | SQL queries, joins, aggregations and window functions; Excel; Tableau; DBeaver |
+| Reproducible development | Modular Python, command-line reporting, Jupyter, unittest, Git/GitHub |
 | Design background | Figma, Adobe Illustrator, Photoshop, Rhino, KeyShot |
 
 ## Education and Interests

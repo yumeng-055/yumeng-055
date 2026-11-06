@@ -31,7 +31,7 @@ All four projects were completed independently as academic coursework. The repos
 
 - Analysed **1,200 monthly observations across 50 stores**, comparing 25 trained and 25 control stores over 24 months
 - Compared pooled OLS, fixed-effects and random-effects models, then estimated a two-way fixed-effects difference-in-differences model with store-clustered standard errors
-- Estimated **+5.19 monthly sales units** under the required causal assumptions (**95% CI: 4.44–5.94**); the dataset does not establish a currency or monetary scale
+- Estimated an average increase of approximately **RMB 51,900 in monthly sales revenue per trained store**, under the required causal assumptions (**95% CI: RMB 44,400–59,400**)
 - Recommended a controlled pilot and collection of training costs and margins before a broader rollout decision
 
 **Tools:** Python, Pandas, Statsmodels, linearmodels, Difference-in-Differences

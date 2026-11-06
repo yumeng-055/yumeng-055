@@ -83,7 +83,7 @@ My professional experience provides context for the questions I explore in these
 Master of Science in Data Analytics and Visualisation · Jan 2026 – Jun 2027  
 Current GPA: 4.75/5.0
 
-**Zhongshan Institute, University of Electronic Science and Technology of China**  
+**University of Electronic Science and Technology of China, Zhongshan Institute**  
 Bachelor of Engineering in Industrial Design · Sep 2013 – Jun 2017
 
 I am interested in **customer analytics, marketing analytics and retail business intelligence**, with a focus on connecting analytical evidence to business decisions.

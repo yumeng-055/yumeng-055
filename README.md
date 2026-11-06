@@ -25,16 +25,16 @@ All four projects were completed independently as academic coursework. The repos
 
 **Tools:** Python, pandas, scikit-learn, SciPy, PCA, K-Means, Ward clustering, Matplotlib, seaborn
 
-### [Employee Training Effectiveness and Causal Analysis](https://github.com/yumeng-055/Employee-Training-Causal-Analysis)
+### [Airline Customer Experience & Model Performance Monitoring](https://github.com/yumeng-055/airline-customer-experience-monitoring)
 
-**Question:** What evidence would support expanding a retail employee-training programme?
+**Question:** When does a satisfaction model become less reliable, and what evidence should guide investigation and retraining?
 
-- Analysed **1,200 monthly observations across 50 stores**, comparing 25 trained and 25 control stores over 24 months
-- Compared pooled OLS, fixed-effects and random-effects models, then estimated a two-way fixed-effects difference-in-differences model with store-clustered standard errors
-- Estimated an average increase of approximately **RMB 51,900 in monthly sales revenue per trained store**, under the required causal assumptions (**95% CI: RMB 44,400–59,400**)
-- Recommended a controlled pilot and collection of training costs and margins before a broader rollout decision
+- Prepared **20,000 historical survey rows and three monthly batches of 3,000 rows**, with fold-local preprocessing and a frozen classification model
+- Tracked monthly **F1 declining from 0.9475 to 0.9028**, separating data-quality warnings, input drift and performance alerts
+- Diagnosed **Business-class recall falling from 91.5% to 79.1%**, using passenger-group errors and PSI to prioritise investigation
+- Built reproducible local monitoring reports and evaluated a retrospective challenger, with future-batch validation required before any proposed model replacement
 
-**Tools:** Python, Pandas, Statsmodels, linearmodels, Difference-in-Differences
+**Tools:** Python, Pandas, Scikit-learn, Random Forest, PSI, Matplotlib, Seaborn
 
 ### [Singapore HDB Resale Price Analytics](https://github.com/yumeng-055/hdb-resale-price-analytics)
 
@@ -47,16 +47,16 @@ All four projects were completed independently as academic coursework. The repos
 
 **Tools:** Python, Pandas, Scikit-learn, XGBoost, Streamlit
 
-### [Airline Customer Experience & Model Performance Monitoring](https://github.com/yumeng-055/airline-customer-experience-monitoring)
+### [Employee Training Effectiveness and Causal Analysis](https://github.com/yumeng-055/Employee-Training-Causal-Analysis)
 
-**Question:** When does a satisfaction model become less reliable, and what evidence should guide investigation and retraining?
+**Question:** What evidence would support expanding a retail employee-training programme?
 
-- Prepared **20,000 historical survey rows and three monthly batches of 3,000 rows**, with fold-local preprocessing and a frozen classification model
-- Tracked monthly **F1 declining from 0.9475 to 0.9028**, separating data-quality warnings, input drift and performance alerts
-- Diagnosed **Business-class recall falling from 91.5% to 79.1%**, using passenger-group errors and PSI to prioritise investigation
-- Built reproducible local monitoring reports and evaluated a retrospective challenger, with future-batch validation required before any proposed model replacement
+- Analysed **1,200 monthly observations across 50 stores**, comparing 25 trained and 25 control stores over 24 months
+- Compared pooled OLS, fixed-effects and random-effects models, then estimated a two-way fixed-effects difference-in-differences model with store-clustered standard errors
+- Estimated an average increase of approximately **RMB 51,900 in monthly sales revenue per trained store**, under the required causal assumptions (**95% CI: RMB 44,400–59,400**)
+- Recommended a controlled pilot and collection of training costs and margins before a broader rollout decision
 
-**Tools:** Python, Pandas, Scikit-learn, Random Forest, PSI, Matplotlib, Seaborn
+**Tools:** Python, Pandas, Statsmodels, linearmodels, Difference-in-Differences
 
 ## From Retail and Design to Analytics
 

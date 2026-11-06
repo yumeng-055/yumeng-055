@@ -17,11 +17,11 @@ All five projects were completed independently as academic coursework. The repos
 **Question:** How can customer purchasing and channel patterns inform differentiated marketing?
 
 - Analysed **2,000 customers**, prepared eight clustering features and retained five principal components explaining **81.57% of variance**
-- Compared K-Means and hierarchical clustering, selecting four segments for business interpretability while acknowledging stronger internal metrics at K=3
+- Compared K-Means with Ward hierarchical clustering and retained **K-Means with K=4** as the final working segmentation; K=3 had stronger internal metrics, while K=4 distinguished family-focused grocery shoppers from high-income omnichannel shoppers
 - Identified a fashion-and-technology segment representing **37.2% of customers**, with median monthly visits of **13 online and two in-store**
 - Proposed segment-specific offers and a randomised pilot with defined conversion metrics
 
-**Tools:** Python, Pandas, Scikit-learn, PCA, K-Means, Matplotlib, Seaborn
+**Tools:** Python, pandas, scikit-learn, SciPy, PCA, K-Means, Ward clustering, Matplotlib, seaborn
 
 ### [Employee Training Effectiveness and Causal Analysis](https://github.com/yumeng-055/Employee-Training-Causal-Analysis)
 
